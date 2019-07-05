@@ -1,12 +1,38 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "enabledManagers": [
-    "npm"
-  ],
-  "vulnerabilityAlerts": {
-    "labels": ["security"],
-    "assignees": ["@azu"]
-  }
+  "packageRules": [
+    {
+      "paths": [
+        "systems/one/**"
+      ],
+      "extends": [
+        "config:base"
+      ],
+      "vulnerabilityAlerts": {
+        "labels": [
+          "one",
+          "security"
+        ],
+        "assignees": [
+          "@azu"
+        ]
+      }
+    },
+    {
+      "paths": [
+        "systems/two/**"
+      ],
+      "extends": [
+        "config:base"
+      ],
+      "vulnerabilityAlerts": {
+        "labels": [
+          "two",
+          "security"
+        ],
+        "assignees": [
+          "@azu"
+        ]
+      }
+    }
+  ]
 }

@@ -1,0 +1,46 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "@immutable-array/internal",
+  "version": "1.0.4",
+  "description": "Immutable Array.prototype.fill.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "array",
+    "immutable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/immutable-array-prototype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/immutable-array-prototype/issues"
+  },
+  "homepage": "https://github.com/azu/immutable-array-prototype/tree/master/packages/fill/",
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "@types/node": "^8.0.2",
+    "cross-env": "^5.0.1",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "tar": "^4.0.0",
+    "axios": "0.10.0"
+  }
+}
