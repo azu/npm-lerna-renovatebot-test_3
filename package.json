@@ -5,7 +5,6 @@
   "name": "immutable-array-prototype",
   "version": "1.0.0",
   "description": "Immutable Array prototype methods.",
-  "main": "lib/immutable-array-prototype.js",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build"
