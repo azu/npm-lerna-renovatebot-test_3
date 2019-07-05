@@ -27,6 +27,7 @@
       "vulnerabilityAlerts": {
         "labels": [
           "two",
+          "twotwe",
           "security"
         ],
         "assignees": [
