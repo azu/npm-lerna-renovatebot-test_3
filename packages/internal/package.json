@@ -40,7 +40,7 @@
     "typescript": "^2.3.4"
   },
   "dependencies": {
-    "tar": "^3.2.1",
+    "tar": "^4.0.0",
     "axios": "0.10.0"
   }
 }
