@@ -3,6 +3,5 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.4",
-  "npmClient": "npm"
+  "version": "1.0.4"
 }
