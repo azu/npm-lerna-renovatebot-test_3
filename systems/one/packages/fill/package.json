@@ -42,7 +42,7 @@
     "cross-env": "^5.0.1",
     "jest": "^22.4.3",
     "ts-jest": "^22.4.2",
-    "typescript": "^2.3.4"
+    "typescript": "3.5.3"
   },
   "dependencies": {
     "@immutable-array/internal": "^1.0.4"
