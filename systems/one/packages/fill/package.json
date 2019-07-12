@@ -37,12 +37,12 @@
   },
   "homepage": "https://github.com/azu/immutable-array-prototype/tree/master/packages/fill/",
   "devDependencies": {
-    "@types/jest": "^22.2.0",
-    "@types/node": "^8.0.2",
-    "cross-env": "^5.0.1",
-    "jest": "^22.4.3",
-    "ts-jest": "^22.4.2",
-    "typescript": "^2.3.4"
+    "@types/jest": "22.2.3",
+    "@types/node": "8.10.50",
+    "cross-env": "5.2.0",
+    "jest": "22.4.4",
+    "ts-jest": "22.4.6",
+    "typescript": "2.9.2"
   },
   "dependencies": {
     "@immutable-array/internal": "^1.0.4"
