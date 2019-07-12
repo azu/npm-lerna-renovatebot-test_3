@@ -1,0 +1,30 @@
+{
+  // Common Settings
+  "extends": [
+    "config:base"
+  ],
+  "vulnerabilityAlerts": {
+    "labels": [
+      "security"
+    ]
+  },
+  // System Settings
+  "packageRules": [
+    {
+      "paths": [
+        "systems/one/**"
+      ],
+      "labels": [
+        "System:one"
+      ]
+    },
+    {
+      "paths": [
+        "systems/two/**"
+      ],
+      "labels": [
+        "System:one"
+      ]
+    }
+  ]
+}
