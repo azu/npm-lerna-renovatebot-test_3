@@ -1,0 +1,22 @@
+{
+  "name": "npm-lerna-renovatebot-test_2",
+  "version": "1.0.0",
+  "description": "- [ ] renovatebot work?",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/npm-lerna-renovatebot-test_3.git"
+  },
+  "keywords": [],
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/npm-lerna-renovatebot-test_3/issues"
+  },
+  "homepage": "https://github.com/azu/npm-lerna-renovatebot-test_3#readme"
+}
