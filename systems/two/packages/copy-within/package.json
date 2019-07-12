@@ -38,7 +38,7 @@
   "homepage": "https://github.com/azu/immutable-array-prototype/tree/master/packages/copy-within/",
   "dependencies": {
     "@immutable-array/internal": "^1.0.4",
-    "jquery": "^1.0.0"
+    "jquery": "^3.0.0"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
