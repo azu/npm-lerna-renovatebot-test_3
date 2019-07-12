@@ -4,21 +4,6 @@
     "config:base",
     ":timezone(Asia/Tokyo)"
   ],
-  // 設定内で利用できるテンプレート関数的なものを定義している
-  // https://renovatebot.com/docs/config-presets/#preset-parameters
-  // システム向けのテンプレート関数
-  // ":templateSetSystem(システム名)"
-  "default": {
-    "setsystem": {
-      "description": "For System <code>{{arg0}}</code>",
-      "labels": [
-        "System:{{arg0}}"
-      ],
-      "minor": {
-        "groupName": "System:{{arg0}} dependencies"
-      },
-    },
-  },
   // npm向けの設定
   "npm": {
     "extends": [
@@ -81,7 +66,7 @@
         "systems/one/**"
       ],
       "extends": [
-        ":setsystem(one1)"
+        "github>azu/npm-lerna-renovatebot-test_3:setsystem(one1)"
       ]
     },
     {
@@ -89,7 +74,7 @@
         "systems/two/**"
       ],
       "extends": [
-        ":setsystem(two2)"
+        "github>azu/npm-lerna-renovatebot-test_3:setsystem(two2)"
       ]
     }
   ]
