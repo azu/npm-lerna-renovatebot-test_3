@@ -11,6 +11,7 @@
   // System Settings
   "packageRules": [
     {
+      "groupName": "[one]",
       "paths": [
         "systems/one/**"
       ],
@@ -19,6 +20,7 @@
       ]
     },
     {
+      "groupName": "[two]",
       "paths": [
         "systems/two/**"
       ],
