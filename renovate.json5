@@ -78,7 +78,7 @@
         "systems/one/**"
       ],
       "extends": [
-        ":templateSetSystem(one)"
+        ":templateSetSystem(one1)"
       ]
     },
     {
@@ -86,7 +86,7 @@
         "systems/two/**"
       ],
       "extends": [
-        ":templateSetSystem(one)"
+        ":templateSetSystem(two2)"
       ]
     }
   ]
