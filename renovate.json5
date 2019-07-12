@@ -65,17 +65,23 @@
       "paths": [
         "systems/one/**"
       ],
-      "extends": [
-        "github>azu/npm-lerna-renovatebot-test_3:setsystem(one1)"
-      ]
+      "labels": [
+        "System:one"
+      ],
+      "minor": {
+        "groupName": "System:one dependencies"
+      },
     },
     {
       "paths": [
         "systems/two/**"
       ],
-      "extends": [
-        "github>azu/npm-lerna-renovatebot-test_3:setsystem(two2)"
-      ]
+      "labels": [
+        "System:two"
+      ],
+      "minor": {
+        "groupName": "System:two dependencies"
+      },
     }
   ]
 }

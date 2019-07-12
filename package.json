@@ -18,16 +18,5 @@
   "bugs": {
     "url": "https://github.com/azu/npm-lerna-renovatebot-test_3/issues"
   },
-  "homepage": "https://github.com/azu/npm-lerna-renovatebot-test_3#readme",
-  "renovate-config": {
-    "setsystem": {
-      "description": "For System <code>{{arg0}}</code>",
-      "labels": [
-        "System:{{arg0}}"
-      ],
-      "minor": {
-        "groupName": "System:{{arg0}} dependencies"
-      }
-    }
-  }
+  "homepage": "https://github.com/azu/npm-lerna-renovatebot-test_3#readme"
 }
