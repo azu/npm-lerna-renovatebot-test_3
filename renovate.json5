@@ -8,7 +8,7 @@
   // https://renovatebot.com/docs/config-presets/#preset-parameters
   // システム向けのテンプレート関数
   // ":templateSetSystem(システム名)"
-  "templateSetSystem": {
+  "setsystem": {
       "description": "For System <code>{{arg0}}</code>",
       "labels": [
         "System:{{arg0}}"
@@ -79,7 +79,7 @@
         "systems/one/**"
       ],
       "extends": [
-        "templateSetSystem(one1)"
+        ":setsystem(one1)"
       ]
     },
     {
@@ -87,7 +87,7 @@
         "systems/two/**"
       ],
       "extends": [
-        "templateSetSystem(two2)"
+        ":setsystem(two2)"
       ]
     }
   ]
