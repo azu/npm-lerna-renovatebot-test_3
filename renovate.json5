@@ -4,11 +4,7 @@
     "config:base",
     ":timezone(Asia/Tokyo)"
   ],
-  // 共通の設定
-  // PRの作成は月曜の12時に出す
-  "schedule": [
-    "after 12am every monday"
-  ],
+  "ignorePresets": [":prHourlyLimit2"],
   // PRの作成はパッケージが公開されてから14日後
   "prNotPendingHours": 336,
   // npm向けの設定
