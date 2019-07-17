@@ -54,7 +54,8 @@
     // パッケージ名ごとの特別ルール
     "packageRules": [
       {
-        // ソースコードも一緒に更新が必要になるパッケージ
+        // 共通の自動アップデートの無視リスト
+        // パッケージ名を追加していく
         "groupName": "Manuall updates",
         "packageNames": [
           "eslint",
