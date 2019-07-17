@@ -7,7 +7,7 @@
   // 共通の設定
   // PRの作成は月曜の12時に出す
   "schedule": [
-    "after 12am on every Monday"
+    "after 12am every monday"
   ],
   // PRの作成はパッケージが公開されてから14日後
   "prNotPendingHours": 336,
