@@ -1,7 +1,9 @@
 {
   // Common Settings
   "extends": [
+    // https://renovatebot.com/docs/presets-default/ を継承する
     "config:base",
+    // タイムゾーンは日本に合わせる
     ":timezone(Asia/Tokyo)"
   ],
   // npm向けの設定
@@ -42,7 +44,7 @@
     // パッケージ名ごとの特別ルール
     "packageRules": [
       {
-        // ソースコードも一緒に更新が必要になるパッケージ
+        // ソースコードも一緒に更新が必要になるパッケージは手動でアップデートが必要なので対象外にする
         "groupName": "Manuall updates",
         "packageNames": [
           "eslint",
