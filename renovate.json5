@@ -5,8 +5,8 @@
     ":timezone(Asia/Tokyo)"
   ],
   "ignorePresets": [":prHourlyLimit2"],
-  // PRの作成はパッケージが公開されてから14日後
-  "prNotPendingHours": 336,
+  // PRを出すのをブランチが作成されてから待つ時間
+  "prNotPendingHours": 48,
   // npm向けの設定
   "npm": {
     "extends": [
