@@ -33,7 +33,7 @@
   "homepage": "https://github.com/azu/immutable-array-prototype/tree/master/packages/fill/",
   "devDependencies": {
     "@types/jest": "22.2.3",
-    "@types/node": "8.10.50",
+    "@types/node": "8.10.59",
     "cross-env": "5.2.0",
     "jest": "22.4.4",
     "ts-jest": "22.4.6",
